@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+body{
+    background:url('bg.jpg') no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size :cover;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    justify-content: center;
+    color: #fff;
+}
+
+h1{
+    font-size: 5rem;
+    margin-top: -10px;
+}
+
+.img img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 18rem;
+    border: .3rem solid #fff;
+}
+
+.p p{
+    font-size: 3.5rem;
+}
+
+.btn button{
+    border-radius: 10rem;
+    font-size: 1.5rem;
+    margin-top: -2.5rem;
+    background: black;
+    border-color: #fff;
+}
+
+.btn button:hover{
+    background: #fff;
+    transition: 0.9s ease-in-out;
+    border-color: black;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+
+
+.btn button a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Whisper', cursive;
+}
+
+.btn button a:hover{
+    color: black;
+    transition: 0.9s ease-in-out;
+}
+
+.cr{
+    padding-top: 1.5rem;
+    font-size: 2rem;
+}
+
+@media(max-width:991px){
+    h1{
+        font-size: 3rem;
+        padding-top: 40px;
+        justify-content: center;
+    }
+
+    .p p{
+        font-size: 2.5rem;
+    }
+}
